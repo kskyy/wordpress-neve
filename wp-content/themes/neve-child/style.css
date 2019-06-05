@@ -18,8 +18,13 @@ nav a, .navbar-right a {
 	letter-spacing:0.06em;
 }
 
-.phone-number:hover {
+.navbar-collapse {
+	border:none!important;
+}
+
+.phone-number a:hover, .phone-number a:focus {
     color: #698dff !important;
+	background:none;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
@@ -1126,6 +1131,23 @@ transform: rotate(-90deg); }
     .phone-number {
         display: none !important;
     }
+	.navbar-right li {
+		background: #698dff;
+		border-radius:4px;
+		text-align:center;
+	}
+	.navbar-right li a {
+		color: #fff;
+		font-size:19px;
+		letter-spacing: 0.023em;
+		text-align:center;
+		text-transform: none;
+	}
+
+	.navbar {
+	max-width:92%;
+	margin: 0 auto!important;
+	}
 }
 
 @media (min-width: 1024px) {
